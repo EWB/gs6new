@@ -1,0 +1,6 @@
+# $Id: INSTALL.txt,v 1.6.2.2 2009/08/14 02:08:02 cpliakas Exp $
+
+Outdated, update to come shortly ...
+
+For now, visit the following handbook page for installation instructions:
+http://drupal.org/node/521604

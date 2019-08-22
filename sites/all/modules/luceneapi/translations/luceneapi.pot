@@ -1,0 +1,1120 @@
+# $Id: luceneapi.pot,v 1.1.2.1 2009/11/15 22:49:20 cpliakas Exp $
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  luceneapi.admin.inc,v 1.24.2.51 2009/11/15 17:54:37 cpliakas
+#  luceneapi_node.index.inc,v 1.1.2.30 2009/11/13 21:54:28 cpliakas
+#  luceneapi.error.inc,v 1.3.2.5 2009/11/09 00:24:04 cpliakas
+#  luceneapi.query.inc,v 1.4.2.8 2009/09/29 00:06:20 cpliakas
+#  luceneapi.module,v 1.61.2.115 2009/11/15 22:26:46 cpliakas
+#  luceneapi_node.module,v 1.40.2.80 2009/11/13 21:54:28 cpliakas
+#  luceneapi.install,v 1.10.2.17 2009/11/15 20:17:25 cpliakas
+#  luceneapi_facet.module,v 1.1.2.53 2009/11/15 18:21:13 cpliakas
+#  luceneapi_node.query.inc,v 1.1.2.3 2009/11/10 01:56:43 cpliakas
+#  luceneapi_facet.admin.inc,v 1.1.2.18 2009/11/15 18:21:13 cpliakas
+#  luceneapi.info,v 1.3.4.4 2009/11/15 17:54:37 cpliakas
+#  luceneapi_facet.info,v 1.1.2.5 2009/11/15 17:54:37 cpliakas
+#  luceneapi_node.info,v 1.3.4.3 2009/09/29 01:28:03 cpliakas
+#  luceneapi_facet.install,v 1.1.2.9 2009/10/19 21:55:44 cpliakas
+#  luceneapi_facet.js,v 1.1.2.3 2009/10/22 21:20:56 cpliakas
+#  luceneapi_node.admin.inc,v 1.10.2.21 2009/11/15 17:54:37 cpliakas
+#  luceneapi_node.install,v 1.11.2.14 2009/10/03 19:25:38 cpliakas
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-11-15 17:43-0500\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: luceneapi.admin.inc:24
+msgid "Global settings"
+msgstr ""
+
+#: luceneapi.admin.inc:26
+msgid "Global search settings for all Search Lucene API modules"
+msgstr ""
+
+#: luceneapi.admin.inc:32
+msgid "Hijack search box"
+msgstr ""
+
+#: luceneapi.admin.inc:35
+msgid "No"
+msgstr ""
+
+#: luceneapi.admin.inc:38
+msgid "Determines which module will take over the default search box and search block."
+msgstr ""
+
+#: luceneapi.admin.inc:46
+msgid "Text analyzer"
+msgstr ""
+
+#: luceneapi.admin.inc:49
+msgid "The analyzer is responsible for parsing the text and preparing it for indexing. Changing this setting <b>requires that all indexes be rebuilt</b>."
+msgstr ""
+
+#: luceneapi.admin.inc:55;356
+msgid "Inherit from core search"
+msgstr ""
+
+#: luceneapi.admin.inc:56;300
+msgid "No minimum"
+msgstr ""
+
+#: luceneapi.admin.inc:63
+msgid "Minimum word length"
+msgstr ""
+
+#: luceneapi.admin.inc:66
+msgid "Do not index or search terms shorter than this length. Note that this setting may effect facets, as values shorter than the specified length will not be indexed. Numeric values are <em>NOT</em> subject to this limitation."
+msgstr ""
+
+#: luceneapi.admin.inc:72
+msgid "Stop words"
+msgstr ""
+
+#: luceneapi.admin.inc:74
+msgid "A list of words that are not indexed. Words are separated by spaces and new lines. See the %directory directory for lists of stopwords in common languages."
+msgstr ""
+
+#: luceneapi.admin.inc:83
+msgid "Errors and logging"
+msgstr ""
+
+#: luceneapi.admin.inc:90
+msgid "Logging level"
+msgstr ""
+
+#: luceneapi.admin.inc:93
+msgid "Error"
+msgstr ""
+
+#: luceneapi.admin.inc:94
+msgid "Info"
+msgstr ""
+
+#: luceneapi.admin.inc:95
+msgid "Debug"
+msgstr ""
+
+#: luceneapi.admin.inc:97
+msgid "The minimum severity of watchdog messages."
+msgstr ""
+
+#: luceneapi.admin.inc:103
+msgid "Generic error message"
+msgstr ""
+
+#: luceneapi.admin.inc:106
+msgid "Error displayed to users who do not have the <em>view luceneapi errors</em> permission. If the value is empty, no error will be displayed."
+msgstr ""
+
+#: luceneapi.admin.inc:113
+msgid "Filesystem permissions"
+msgstr ""
+
+#: luceneapi.admin.inc:115
+msgid "Sets permissions of index files for systems and installtions that support it."
+msgstr ""
+
+#: luceneapi.admin.inc:119
+msgid "None"
+msgstr ""
+
+#: luceneapi.admin.inc:120
+msgid "Read only"
+msgstr ""
+
+#: luceneapi.admin.inc:121
+msgid "Read and write"
+msgstr ""
+
+#: luceneapi.admin.inc:127
+msgid "Group"
+msgstr ""
+
+#: luceneapi.admin.inc:130
+msgid "Group permission for the index files."
+msgstr ""
+
+#: luceneapi.admin.inc:136
+msgid "Others"
+msgstr ""
+
+#: luceneapi.admin.inc:139
+msgid "Permissions for all users on the system. Granting too many privileges to others may expose your installation to security risks."
+msgstr ""
+
+#: luceneapi.admin.inc:177
+msgid "Search page settings"
+msgstr ""
+
+#: luceneapi.admin.inc:186
+msgid "Results per page"
+msgstr ""
+
+#: luceneapi.admin.inc:188
+msgid "Number of items that will be shown per search results page."
+msgstr ""
+
+#: luceneapi.admin.inc:194
+msgid "Default operator"
+msgstr ""
+
+#: luceneapi.admin.inc:197
+msgid "AND"
+msgstr ""
+
+#: luceneapi.admin.inc:198
+msgid "OR"
+msgstr ""
+
+#: luceneapi.admin.inc:200
+msgid "Default operator for queries submitted through the search form."
+msgstr ""
+
+#: luceneapi.admin.inc:207
+msgid "Filesystem"
+msgstr ""
+
+#: luceneapi.admin.inc:215
+msgid "Index path"
+msgstr ""
+
+#: luceneapi.admin.inc:218
+msgid "A filesystem path where the Lucene index is stored. In most cases, the default setting won't need to be changed."
+msgstr ""
+
+#: luceneapi.admin.inc:242
+msgid "Results per page must be a positive integer."
+msgstr ""
+
+#: luceneapi.admin.inc:266
+msgid "Search performance"
+msgstr ""
+
+#: luceneapi.admin.inc:279
+msgid "Consolidate index segments to improve search performance."
+msgstr ""
+
+#: luceneapi.admin.inc:285
+msgid "Optimize on update"
+msgstr ""
+
+#: luceneapi.admin.inc:287
+msgid "Automatically optimize the index after it is updated via cron."
+msgstr ""
+
+#: luceneapi.admin.inc:294
+msgid "Result set limit"
+msgstr ""
+
+#: luceneapi.admin.inc:296
+msgid "Helps limit score calculation when searching larger indexes. This greatly reduces both search time and memory consumption. Note that the first <i>n</i> number of results are returned, not the <i>n</i> best number of results. Set to <em>0</em> for no limit. A good starting point for larger indexes is <em>1000</em>."
+msgstr ""
+
+#: luceneapi.admin.inc:304
+msgid "Minimum wildcard prefix"
+msgstr ""
+
+#: luceneapi.admin.inc:307
+msgid "The minimum number of non-wildcard characters required for wildcard queries."
+msgstr ""
+
+#: luceneapi.admin.inc:313
+msgid "Enable caching"
+msgstr ""
+
+#: luceneapi.admin.inc:315
+msgid "Cache search results and other resource intensive items. Enabling this setting greatly improves the overall performance of the module."
+msgstr ""
+
+#: luceneapi.admin.inc:322
+msgid "Cache threshold"
+msgstr ""
+
+#: luceneapi.admin.inc:324
+msgid "Do not cache results larger than this threshold. Setting to <em>0</em> means there is no threshold."
+msgstr ""
+
+#: luceneapi.admin.inc:331
+msgid "Maximum size of cached result set"
+msgstr ""
+
+#: luceneapi.admin.inc:333
+msgid "The first <i>n</i> number of results in a result set will be cached. Setting to <em>0</em> will cache the maximum number of results the database will allow."
+msgstr ""
+
+#: luceneapi.admin.inc:344
+msgid "Purge items such as search results from the cache."
+msgstr ""
+
+#: luceneapi.admin.inc:350
+msgid "Indexing performance"
+msgstr ""
+
+#: luceneapi.admin.inc:360
+msgid "Items to index per update"
+msgstr ""
+
+#: luceneapi.admin.inc:363
+msgid "The maximum number of items that will be indexed per update."
+msgstr ""
+
+#: luceneapi.admin.inc:369
+msgid "Maximum buffered documents"
+msgstr ""
+
+#: luceneapi.admin.inc:372
+msgid "The minimal number of documents required before the buffered in-memory documents are written into a new segment. Setting to a higher value may improve indexing performance but will also increase memory consumption."
+msgstr ""
+
+#: luceneapi.admin.inc:378
+msgid "Merge factor"
+msgstr ""
+
+#: luceneapi.admin.inc:381
+msgid "Lower values increase the quality of unoptimized indexes, while larger values increase indexing performance. Setting the value too high may trigger the <em>too many open files </em> error determined by OS limitations."
+msgstr ""
+
+#: luceneapi.admin.inc:401
+msgid "Result set limit must be an integer greater than or equal to 0."
+msgstr ""
+
+#: luceneapi.admin.inc:404
+msgid "Maximum size of cached result set must be an integer greater than or equal to 0."
+msgstr ""
+
+#: luceneapi.admin.inc:438
+msgid "Index overview"
+msgstr ""
+
+#: luceneapi.admin.inc:447
+msgid "<p><strong>%percentage</strong> of the content has been indexed.</p>"
+msgstr ""
+
+#: luceneapi.admin.inc:466 contrib/luceneapi_node/luceneapi_node.index.inc:307
+msgid "Rebuild index"
+msgstr ""
+
+#: luceneapi.admin.inc:481
+msgid "Overwrite all data in the index, but the current data is still searchable."
+msgstr ""
+
+#: luceneapi.admin.inc:492
+msgid "Immediately delete all documents in the index."
+msgstr ""
+
+#: luceneapi.admin.inc:496
+msgid "<p>Number of documents in index: <em>%number</em></p>"
+msgstr ""
+
+#: luceneapi.admin.inc:502
+msgid "<p>Number of terms: <em>%number</em></p>"
+msgstr ""
+
+#: luceneapi.admin.inc:508
+msgid "<p>Number of fields: <em>%number</em></p>"
+msgstr ""
+
+#: luceneapi.admin.inc:516
+msgid "Lucene field"
+msgstr ""
+
+#: luceneapi.admin.inc:517
+msgid "Number of unique terms"
+msgstr ""
+
+#: luceneapi.admin.inc:553
+msgid "Module %module is not a valid Search Lucene API module."
+msgstr ""
+
+#: luceneapi.admin.inc:600
+msgid "Are you sure you want to optimize the index?"
+msgstr ""
+
+#: luceneapi.admin.inc:601
+msgid "A Lucene index consists of many segments. Each segment is a completely independent set of data. New documents are added to the index by creating new segment. Increasing the number of segments reduces quality of the index, but index optimization restores it. This process may take a while for larger indexes, so please be patient."
+msgstr ""
+
+#: luceneapi.admin.inc:605
+msgid "Are you sure you want to clear the results cache?"
+msgstr ""
+
+#: luceneapi.admin.inc:606
+msgid "Maintaing a search results cache can reduce the time it takes to search and sort content, but it can become very large over time. It may also store results that are out of date or are no longer valid."
+msgstr ""
+
+#: luceneapi.admin.inc:610
+msgid "Are you sure you want to rebuild the index?"
+msgstr ""
+
+#: luceneapi.admin.inc:611
+msgid "Reindexing the site will overwrite all entries currently in the index. Although the index can still be searched, it may take many cron runs to rebuild it completely."
+msgstr ""
+
+#: luceneapi.admin.inc:615
+msgid "Are you sure you want to wipe the index?"
+msgstr ""
+
+#: luceneapi.admin.inc:616
+msgid "Wiping the index will immediately remove all entries leaving the site search unusable. It may take many cron runs to rebuild the index. If the index becomes corrupt, this may be the only option to repair the site search."
+msgstr ""
+
+#: luceneapi.admin.inc:637
+msgid "Cancel"
+msgstr ""
+
+#: luceneapi.admin.inc:662
+msgid "Index sucessfully optimized."
+msgstr ""
+
+#: luceneapi.admin.inc:673
+msgid "Cached search results cleared."
+msgstr ""
+
+#: luceneapi.admin.inc:678
+msgid "The index will be rebuilt."
+msgstr ""
+
+#: luceneapi.admin.inc:686
+msgid "Index sucessfully wiped."
+msgstr ""
+
+#: luceneapi.error.inc:31
+msgid "Error thrown in %file on line %line."
+msgstr ""
+
+#: luceneapi.error.inc:88
+msgid "Module %module is either not installed or not enabled."
+msgstr ""
+
+#: luceneapi.error.inc:94
+msgid "Module %module does not implement %hook."
+msgstr ""
+
+#: luceneapi.error.inc:103
+msgid "Path not returned by %hook in module %module."
+msgstr ""
+
+#: luceneapi.query.inc:54
+msgid "Sign %sign not valid."
+msgstr ""
+
+#: luceneapi.module:65
+msgid "Drupal"
+msgstr ""
+
+#: luceneapi.module:130
+msgid "Analyzer no longer valid, changing setting to default analyzer."
+msgstr ""
+
+#: luceneapi.module:167
+msgid "General settings"
+msgstr ""
+
+#: luceneapi.module:168
+msgid "Performance"
+msgstr ""
+
+#: luceneapi.module:169
+msgid "Index statistics"
+msgstr ""
+
+#: luceneapi.module:194
+msgid "Optimize index"
+msgstr ""
+
+#: luceneapi.module:195
+msgid "Clear search results cache"
+msgstr ""
+
+#: luceneapi.module:196 contrib/luceneapi_node/luceneapi_node.module:260
+msgid "Re-index"
+msgstr ""
+
+#: luceneapi.module:197 contrib/luceneapi_node/luceneapi_node.module:263
+msgid "Wipe index"
+msgstr ""
+
+#: luceneapi.module:391
+msgid "Search Lucene API variable %name not valid."
+msgstr ""
+
+#: luceneapi.module:444
+msgid "An error occurred in a Search Lucene API module."
+msgstr ""
+
+#: luceneapi.module:459
+msgid "Search Lucene API setting %name not valid."
+msgstr ""
+
+#: (duplicate) luceneapi.module:694 luceneapi.install:119 
+msgid "The Zend Framework components are not installed."
+msgstr ""
+
+#: luceneapi.module:954
+msgid "Search Lucene API Sorting"
+msgstr ""
+
+#: luceneapi.module:975
+msgid "Relevance"
+msgstr ""
+
+#: luceneapi.module:1013
+msgid "Sort results by"
+msgstr ""
+
+#: luceneapi.module:1245
+msgid "Do not index"
+msgstr ""
+
+#: luceneapi.module:1442
+msgid "At least %number non-wildcard characters are required in a term."
+msgstr ""
+
+#: luceneapi.module:1569;1864 contrib/luceneapi_facet/luceneapi_facet.module:1004 contrib/luceneapi_node/luceneapi_node.query.inc:31;133;199
+msgid "Error instantiating boolean query."
+msgstr ""
+
+#: luceneapi.module:1853 contrib/luceneapi_node/luceneapi_node.query.inc:118
+msgid "Error instantiating term query."
+msgstr ""
+
+#: luceneapi.module:2087
+msgid "Lucene field type %type not valid."
+msgstr ""
+
+#: luceneapi.module:2120
+msgid "Query type %type not valid."
+msgstr ""
+
+#: luceneapi.module:1661
+msgid "luceneapi"
+msgstr ""
+
+#: luceneapi.module:1661
+msgid "Excerpt cache hit."
+msgstr ""
+
+#: luceneapi.module:227;241
+msgid "!name"
+msgstr ""
+
+#: luceneapi.module:229
+msgid "Configure error handling, API behavior."
+msgstr ""
+
+#: luceneapi.module:246
+msgid "Configure search page settings, tune index performance, and view index statistics."
+msgstr ""
+
+#: (duplicate) luceneapi.install:93 
+msgid "Search Lucene API: ZF components"
+msgstr ""
+
+#: (duplicate) luceneapi.install:111 
+msgid "The installed version of the Zend Framework components are not officially supported by <em>Search Lucene API</em>: Expecting version %version. Please check the <em>Search Lucene API Library</em> project at <em>SourceForge.net</em> to see if a new release is available for the version of <em>Search Lucene API</em> you are using."
+msgstr ""
+
+#: (duplicate) luceneapi.install:124 
+msgid "Search Lucene API: Recommended PHP version"
+msgstr ""
+
+#: (duplicate) luceneapi.install:132 
+msgid "Search Lucene API recommends PHP %version or later."
+msgstr ""
+
+#: (duplicate) luceneapi.install:140 
+msgid "Search Lucene API: PCRE unicode support"
+msgstr ""
+
+#: (duplicate) luceneapi.install:144  contrib/luceneapi_facet/luceneapi_facet.admin.inc:188
+msgid "Enabled"
+msgstr ""
+
+#: (duplicate) luceneapi.install:148 
+msgid "Disabled"
+msgstr ""
+
+#: (duplicate) luceneapi.install:149 
+msgid "Search Lucene API requires PCRE unicode support to be enabled."
+msgstr ""
+
+#: (duplicate) luceneapi.install:154 
+msgid "Search Lucene API: PHP Mbstring extension"
+msgstr ""
+
+#: (duplicate) luceneapi.install:158 
+msgid "Installed"
+msgstr ""
+
+#: (duplicate) luceneapi.install:162 
+msgid "Not installed"
+msgstr ""
+
+#: (duplicate) luceneapi.install:163 
+msgid "Search Lucene API requires the <em>Mbstring</em> extension."
+msgstr ""
+
+#: (duplicate) luceneapi.install:177 
+msgid "Zend Framework components"
+msgstr ""
+
+#: (duplicate) luceneapi.install:182 
+msgid "The required Zend Framework components of Search Lucene API are installed."
+msgstr ""
+
+#: (duplicate) luceneapi.install:186 
+msgid "The required Zend Framework components of Search Lucene API are not installed. Please review the installation section on the <a href=\"@project-page\">Search Lucene API project page</a> for instructions on downloading the Zend Framework components."
+msgstr ""
+
+#: (duplicate) luceneapi.install:194 
+msgid "PHP iconv extension"
+msgstr ""
+
+#: (duplicate) luceneapi.install:201 
+msgid "Search Lucene API requires the <em>iconv</em> extension."
+msgstr ""
+
+#: luceneapi.info:0;0 contrib/luceneapi_facet/luceneapi_facet.info:0 contrib/luceneapi_node/luceneapi_node.info:0
+msgid "Search Lucene API"
+msgstr ""
+
+#: luceneapi.info:0
+msgid "An API for modules to use a Lucene backend for searches."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:51
+msgid "This page provides a drag-and-drop interface to enable certian facets in each realm and control the order they are shown on the page.  <em>Realms</em> are groups of facets that are displayed in a similar fashion on the search page. Since rendering is handled by the relam, a single facet may be displayed in different ways, for exmaple a form element or a list of clickable links. Like the core search, users need the <em>use advanced search</em> <a href=\"@permissions-page\">permissions</a> to be able to use the facets."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:72
+msgid "Realm: @name"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:105;117
+msgid "No limit"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:110
+msgid "Limit items per facet"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:113
+msgid "Display the top <i>n</i> number of items per facet. Items are limited via jQuery."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:122
+msgid "Hard limit"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:125
+msgid "No more than <i>n</i> number of facets will be displayed."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:130
+msgid "Empty search settings"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:136
+msgid "Facet display"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:139
+msgid "Display facets when a search yields no results."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:140
+msgid "Display facets before a search has been executed."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:141
+msgid "Show counts. Numbers will not match partially built indexes."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:143
+msgid "Enabling these settings allow facets to initiate a new search."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:152
+msgid "Expand fieldset on faceted search"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:154
+msgid "When facets are selected, the fieldset will remain expanded so users can more easily refine their search."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:162
+msgid "No facets are available to this module."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:189
+msgid "Facet"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:190
+msgid "Weight"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.admin.inc:191
+msgid "Description"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:66
+msgid "Element not defined in facet %facet."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:71
+msgid "%name is reserved and cannot be used as a facet element."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:151
+msgid "Realm %realm not valid"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:323
+msgid "Processed keys must be an array, %type given."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:334
+msgid "Keys not found in processed keys."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:338
+msgid "Facets not found in processed keys."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:341
+msgid "Facets must be an array, %type given."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:353
+msgid "Error processing the query."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:356
+msgid "Please enter some keywords."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:466;580
+msgid "Facet rendering callback not defined for realm %realm."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:472;586
+msgid "Facet rendering function %function for realm %realm does not exist."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:552
+msgid "Realm %realm not defined."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:603
+msgid "Query object not returned by facet callback %function"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:654 contrib/luceneapi_node/luceneapi_node.module:326;556;834
+msgid "Error instantiating multiterm query."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:682
+msgid "Block"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:686
+msgid "The <i>Block</i> realm displays facets as a list of links in the <i>Search Lucene Facets</i> <a href=\"@block-page\">block</a>. Users are able to refine their searches in a drill-down fassion similar to the Faceted Search module's <i>Guided search</i> block."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:694
+msgid "Fieldset"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:697
+msgid "The <i>Fieldset</i> realm displays facets as form elements in a fieldset below the search form that is similar in appearance to the core Search module's <i>Advanced search</i> fieldset."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:722;771
+msgid "Faceted search"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:779
+msgid "Search"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.module:31
+msgid "Facets"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.install:57;68 contrib/luceneapi_facet/luceneapi_facet.info:0
+msgid "Search Lucene Facets"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.install:59;70
+msgid "Search Lucene Facets depends on Search Lucene API."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.info:0
+msgid "Adds faceted searching to Search Lucene API modules."
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.js:0;0
+msgid "Show more"
+msgstr ""
+
+#: contrib/luceneapi_facet/luceneapi_facet.js:0
+msgid "Show less"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:25
+msgid "Search name"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:28
+msgid "This value will be the name of the search tab."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:34
+msgid "Hide core search"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:36
+msgid "Hides the core search, redirects core searches to luceneapi_node."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:48
+msgid "Redirection status code"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:51
+msgid "Moved permanently"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:52
+msgid "Found"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:53
+msgid "Temporary Redirect"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:55
+msgid "Status code used to redirect core search queries to luceneapi_node if core searches are hidden."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:61
+msgid "Content types"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:70
+msgid "Types excluded from index"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:73
+msgid "Adding content types to the exclude list will <b>delete nodes of the selected content types from the index</b>.<br/>Removing content types from the exclude list will <b>automatically force an index rebuild</b>."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:85
+msgid "Node restrictions"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:87
+msgid "Add restrictions to limit which nodes are returned in search results."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:94
+msgid "Apply the node access system to search results"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:101
+msgid "Only return results that are language neutral or in the current language"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:120
+msgid "Content bias allows administrators to set configurable levels of importance on certain items when scoring is calculated for search results. Results having matched items with larger boost factors are returned higher in searches. The default boost factor for Lucene is <em>1.0</em>."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:127
+msgid "Don't search"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:132
+msgid "Field bias"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:134
+msgid "Places importance on text in certain Lucene fields."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:155
+msgid "HTML tag bias"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:157
+msgid "Places importance on text in HTML tags."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:176
+msgid "No bias"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:181
+msgid "Node property bias"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:183
+msgid "Places importance on certain node properties. Changes to these values are not immediate and will be reflected when content is reindexed."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:188
+msgid "Node is sticky"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:191
+msgid "Nodes that are set to be \"Sticky at top of lists\"."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:196
+msgid "Node is promoted"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:199
+msgid "Nodes that are set to be \"Promoted to home page\"."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:205
+msgid "Content type bias"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.admin.inc:207
+msgid "Adds bias to nodes of certain content types. Changes to these values are not immediate and will be reflected when content is reindexed."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.index.inc:308
+msgid "Rebuilding index ..."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.index.inc:309
+msgid "Batch @current out of @total"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.index.inc:310
+msgid "An error occurred reindexing the site."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.index.inc:405
+msgid "The index has been rebuilt."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.index.inc:33;103;110
+msgid "luceneapi_node"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.index.inc:33
+msgid "Index update started."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.index.inc:103
+msgid "Index optimized."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.index.inc:110
+msgid "Index update completed."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.query.inc:104
+msgid "Error instantiating fuzzy query."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.query.inc:107
+msgid "The Zend Framework components require upgrading."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.query.inc:113;220
+msgid "Error instantiating range query."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.query.inc:123
+msgid "Error instantiating wildcard query."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:49
+msgid "Body text"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:51
+msgid "The full rendered content of the page."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:54;396
+msgid "Title"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:56
+msgid "Text in node titles."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:59;392;696
+msgid "Author"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:61
+msgid "The node author's username."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:66
+msgid "Taxonomy terms"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:68
+msgid "Taxonomy term names."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:73
+msgid "Comments"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:75
+msgid "Text in comments."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:87
+msgid "Large headings"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:90
+msgid "Text in H1 tags."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:93
+msgid "Medium headings"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:96
+msgid "Text in H2, H3 tags."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:99
+msgid "Small headings"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:102
+msgid "Text in H4, H5, H6 tags."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:105
+msgid "Inline tags"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:108
+msgid "Text in U, B, I, STRONG, EM tags."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:111
+msgid "Anchor links"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:114
+msgid "Text in A tags."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:131
+msgid "Search Lucene"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:147
+msgid "Search Lucene Content variable %name not valid."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:231
+msgid "Rebuild index after operation"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:232
+msgid "Rebuild the entire index via the <em>Batch API</em> after the operation selected above has completed. Since the documents are added to the index one node at a time, this method is far less efficient than building the index via cron."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:354;369
+msgid "The Search Lucene Content index will be rebuilt."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:400;685
+msgid "Content type"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:404
+msgid "Date created"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:408
+msgid "Last modified"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:444
+msgid "Error loading node."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:472
+msgid "Error loading page"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:474
+msgid "The contents of the page could not be retrieved."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:573
+msgid "Error instantiating empty query."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:605
+msgid "User %uid cannot access any content."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:691
+msgid "Filter by content type."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:702
+msgid "Filter by node author. Wildcard characters are allowed."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:718
+msgid "Filter by terms in the %vocabulary vocabulary."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:923
+msgid "Containing the category(s)"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:951
+msgid "Only of the type(s)"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:974
+msgid "Authored by"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.module:18
+msgid "Content bias"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.install:69;80 contrib/luceneapi_node/luceneapi_node.info:0
+msgid "Search Lucene Content"
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.install:71;82
+msgid "Search Lucene Content depends on Search Lucene API."
+msgstr ""
+
+#: contrib/luceneapi_node/luceneapi_node.info:0
+msgid "Allows for Lucene searches of nodes.  Implements the Search Lucene API."
+msgstr ""
+
